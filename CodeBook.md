@@ -24,6 +24,6 @@ This codebook describes the variables, the data and any transformations or work 
 * `colnames()` to five collumn names
 * `cbind()` to add collumn
 * `grepl()` to retrive rows matching the a certain pattern
-* At `dataSubset %>% group_by(Activity, Subject) %>% summarise_each(funs(mean))`, we use the dply packages capabilities to group and summarise data. A usefull cheatsheet for dplyr: http://www.rstudio.com/resources/cheatsheets/
-* `write.table` to create a txt file
+*  At `dataSubset %>% group_by(Activity, Subject) %>% summarise_each(funs(mean))`, we make use of the dplyr package capabilities to group and summarise data. A usefull cheatsheet for dplyr: http://www.rstudio.com/resources/cheatsheets/
+* `write.table()` to create a txt file
 
